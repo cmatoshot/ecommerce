@@ -1,0 +1,11 @@
+git init
+
+(criar novo repositorio - no site github)
+
+git remote add origin https://github.com/cmatoshot/ecommerce.git
+
+git add --all
+
+git commit -m "inicio do projeto"
+
+git push origin master

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit27c516afa1bd078db0a97a6a13cb2044
+class ComposerStaticInitf76afdaf13cdd9be8354a65f87a6260a
 {
     public static $fallbackDirsPsr4 = array (
         0 => __DIR__ . '/..' . '/cmatoshot/php-classes/src',
@@ -41,9 +41,9 @@ class ComposerStaticInit27c516afa1bd078db0a97a6a13cb2044
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit27c516afa1bd078db0a97a6a13cb2044::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit27c516afa1bd078db0a97a6a13cb2044::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit27c516afa1bd078db0a97a6a13cb2044::$classMap;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitf76afdaf13cdd9be8354a65f87a6260a::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf76afdaf13cdd9be8354a65f87a6260a::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf76afdaf13cdd9be8354a65f87a6260a::$classMap;
 
         }, null, ClassLoader::class);
     }
